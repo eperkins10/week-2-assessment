@@ -14,7 +14,12 @@
   For example: 'Hello! My name is Rubber Duck and I live in Utah"
 */
 
-//CODE HERE
+// const me = {
+//   firstName: "Ethan",
+//   state: "Utah",
+//   age: 20,
+//   greeter: `Hello! My name is ${firstName} and I live in ${state}`
+// }
 
 
 
@@ -44,4 +49,18 @@
   }
 */
 
-//CODE HERE
+function carFactory(make, model, year) {
+  const car = {
+    make: make,
+    model: model,
+    year: year
+  }
+  if (year > 2018) {
+    car.isNew = true
+  } else {
+    car.isNew = false
+  }
+  return car
+}
+
+console.log(carFactory("toyota", "4Runner", 2020))
