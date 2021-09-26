@@ -14,12 +14,12 @@
   For example: 'Hello! My name is Rubber Duck and I live in Utah"
 */
 
-// const me = {
-//   firstName: "Ethan",
-//   state: "Utah",
-//   age: 20,
-//   greeter: `Hello! My name is ${firstName} and I live in ${state}`
-// }
+const me = {
+  firstName: "Ethan",
+  state: "Utah",
+  age: 20,
+  greeter: `Hello! My name is ${firstName} and I live in ${state}`
+}
 
 
 
